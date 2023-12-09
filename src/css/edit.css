@@ -1,0 +1,44 @@
+.formEdit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: .1rem solid var(--primary);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.formEdit div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.formEdit div label{
+    text-transform: uppercase;
+}
+.formEdit div input, .formEdit div textarea, .formEdit div select{
+    width: 100%;
+    resize: none;
+    border: .1rem solid var(--secondary);
+}
+.formEdit .botones{
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: center;
+}
+.formEdit .botones button{
+    margin-right: 1rem;
+}
+.formEdit .botones .button{
+    padding: .1rem 2rem;
+    background-color: var(--secondary--ceroSeis);
+    color: white;
+    border: 1px solid var(--secondary);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.formEdit .botones .button:hover{
+    box-shadow: 0 0 2rem  var(--primary);
+}

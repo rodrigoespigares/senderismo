@@ -1,0 +1,118 @@
+main{
+    flex: 1;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.all{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table,td{
+    border-collapse: collapse;
+}
+thead{
+    text-transform: uppercase;
+}
+td,th{
+    border-bottom: .2rem solid var(--primary); 
+    padding: .5rem 3rem;
+}
+.center{
+    text-align: center;
+}
+table button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+table button img{
+    width: 100%;
+    height: 100%;
+}
+.formRute{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--primary);
+    padding: 3rem;
+    width: 30%;
+    border-radius: 3rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+.formRute div{
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem;
+    width: 100%;
+    flex-direction: column;
+}
+.formRute div input, .formRute div select, .formRute div textarea{
+    border: 1px solid var(--secondary);
+    outline: var(--secondary--ceroSeis);
+    resize: none;
+}
+.formRute p{
+    margin: 1rem;
+    width: 100%;
+}
+.formRute a{
+    color: var(--secondary);
+}
+.formRute button{
+    width: 20%;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 1rem;
+    width: 200px;
+    padding: .6rem 0;
+    box-shadow: 0 0 20px var(--secondary--ceroSeis);
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+}
+.utilities a{
+    text-decoration: none;
+    color: var(--secondary);
+    padding: .2rem 3rem;
+    border: .1rem solid var(--secondary--ceroSeis);
+    border-radius: 5rem;
+}
+.utilities a:hover{
+    background-color: var(--secondary);
+    color: white;
+}
+.buscar {
+	display: flex;
+	width: 100%;
+	margin: 1rem 0;
+	padding: 0.4rem;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid var(--primary);
+	border-bottom: 1px solid var(--primary);
+}
+.buscar p {
+	margin: 0 0.4rem;
+}
+.buscar input, .buscar select {
+	border: 2px solid var(--secondary);
+}
+.buscar .botBuscar{
+    text-decoration: none;
+    color: var(--primary);
+    background-color: var(--secondary--ceroSeis);
+    border: .2rem solid var(--primary);
+    padding: .3rem 1rem;
+    font-size: .6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}

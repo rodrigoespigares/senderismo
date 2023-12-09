@@ -1,0 +1,64 @@
+#comentarios{
+    display: flex;
+    flex-direction: column;
+}
+#comentarios section{
+    border: .2rem solid var(--primary);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 80vw;
+}
+.ruta h2{
+    border-bottom: .1rem solid var(--secondary);
+}
+.ruta div{
+    margin: 3rem 0;
+}
+.ruta p span{
+    font-weight: bold;
+    border-bottom: .1rem solid var(--secondary);
+}
+.commentarios__article{
+    border: 1px solid var(--primary);
+    margin: .5rem 0;
+    padding: .4rem;
+}
+.commentarios__article__header{
+    background-color: transparent;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 0;
+}
+.commentarios__article__header .commentarios__article__header__date{
+    font-size: .6rem;
+}
+.commentarios__article details{
+    color: var(--secondary);
+}
+.commentarios__article form p{
+    font-weight: bold;
+}
+.commentarios__article form button{
+    width: 1.3vw;
+}
+.commentarios__article form button img{
+    width: 100%;
+    height: 100%;
+}
+
+.formCommit{
+    border: .1rem solid var(--primary);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formCommit div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.formCommit textarea{
+    resize: none;
+    border: 1px solid var(--secondary);
+}

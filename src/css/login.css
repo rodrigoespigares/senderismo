@@ -1,0 +1,44 @@
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--primary);
+    padding: 3rem;
+    width: 30%;
+    border-radius: 3rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+.formLogin div{
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem;
+    width: 100%;
+    flex-direction: column;
+}
+.formLogin div input{
+    border: 1px solid var(--secondary);
+    outline: var(--secondary--ceroSeis);
+}
+.formLogin p{
+    margin: 1rem;
+    width: 100%;
+}
+.formLogin a{
+    color: var(--secondary);
+}
+.formLogin button{
+    width: 20%;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 1rem;
+    width: 200px;
+    padding: .6rem 0;
+    box-shadow: 0 0 20px var(--secondary--ceroSeis);
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+}
+.err{
+    color: red;
+    font-size: .7rem;
+}

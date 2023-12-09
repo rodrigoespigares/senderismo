@@ -1,0 +1,13 @@
+#error404Section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#error404Section a{
+    text-decoration: none;
+    color: var(--secondary);
+    text-align: center;
+}
