@@ -1,7 +1,6 @@
 <?php
+    session_set_cookie_params(0); // La sesion se cerrará al cerrar el navegador
     session_start();
-    // Eliminación cuando se cierra el navegador
-    session_set_cookie_params(0);
     // Cargo todas las clases
     require_once("vendor/autoload.php");
     // Carga del archivo de configuracion
