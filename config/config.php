@@ -4,5 +4,5 @@
     // Defino el acction por defecto
     define("ACT_DEFAULT","showPage");
     // Defino la ruta base para ahorrar tiempo
-    define("BASE_URL", "http://localhost/proyectoDiciembre_RodrigoEspigaresFernandez/");
+    define("BASE_URL", "http://localhost/senderismo/");
 ?>
