@@ -3,7 +3,7 @@
         'name' => 'rodrigo/proyecto-diciembre',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '91d402a6b2201927fcce987a15ecd9b1fe1d521a',
+        'reference' => 'b25c38ee79b748b649a093a6677b0d1ea952575c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'rodrigo/proyecto-diciembre' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '91d402a6b2201927fcce987a15ecd9b1fe1d521a',
+            'reference' => 'b25c38ee79b748b649a093a6677b0d1ea952575c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -2,7 +2,6 @@
     <tr>
         <th>ID</th>
         <th>Usuario</th>
-        <th>Contraseña</th>
         <th>Nombre</th>
         <th>Apellidos</th>
         <th>Email</th>
@@ -10,13 +9,11 @@
         <th>Movil</th>
         <th>Rol</th>
         <th>Operaciones</th>
-    </tr>
-    
+    </tr> 
     <?php foreach ($usuarios as $key => $usuario) : ?>
         <tr>
             <td><?= $usuario->getId()?></td>
             <td><?= $usuario->getUsuario()?></td>
-            <td><?= $usuario->getContrasena()?></td>
             <td><?= $usuario->getNombre()?></td>
             <td><?= $usuario->getApellidos()?></td>
             <td><?= $usuario->getEmail()?></td>
